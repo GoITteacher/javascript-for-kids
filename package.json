@@ -1,8 +1,7 @@
 {
   "name": "javascript-for-kids",
   "version": "1.0.0",
-  "description": "Сьогодні ми познайомимося з основними поняттями програмування, які дозволять тобі створювати свої перші рядки коду. Готовий? Почнемо!",
-  "main": "index.js",
+  "description": "",
   "scripts": {
     "push": "git add .; git commit -m 'update'; git push; "
   },
