@@ -15,11 +15,27 @@
   </head>
   <body>
     <h1>JAVASCRIPT LESSONS</h1>
-    <button onclick="loadMarkdown('README.md')">Class Work</button>
-    <button onclick="loadMarkdown('Homework.md')">Home Work</button>
-    <button onclick="loadMarkdown('KnowledgeCheck.md')">
-      Knowledge Checkout
-    </button>
+    <div>
+      <button onclick="loadMarkdown('README.md')">Class Work</button>
+      <button onclick="loadMarkdown('./data/Homework.md')">Home Work</button>
+      <button onclick="loadMarkdown('./data/KnowledgeCheck.md')">
+        Knowledge Checkout
+      </button>
+      <button onclick="loadMarkdown('./data/WarmUp.md')">Warm Up</button>
+      <button onclick="loadMarkdown('./data/ErrorExamples.md')">
+        Error Examples
+      </button>
+      <button onclick="loadMarkdown('./data/ParentGuide.md')">
+        Parent Guide
+      </button>
+      <button onclick="loadMarkdown('./data/Flashcards.md')">Flashcards</button>
+      <button onclick="loadMarkdown('./data/FindTheBug.md')">
+        Find the Bug
+      </button>
+      <button onclick="loadMarkdown('./data/RewriteChallenge.md')">
+        Rewrite Challenge
+      </button>
+    </div>
 
     <div id="markdown-content">Завантаження...</div>
 
