@@ -4,7 +4,7 @@
   "description": "Сьогодні ми познайомимося з основними поняттями програмування, які дозволять тобі створювати свої перші рядки коду. Готовий? Почнемо!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "push": "git add .; git commit -m 'update'; git push; "
   },
   "repository": {
     "type": "git",
