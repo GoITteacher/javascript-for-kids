@@ -44,7 +44,7 @@
 
 ## Зміст
 
-1. [Основи JavaScript: Змінні, типи даних та основні операції](https://github.com/GoITteacher/javascript-for-kids/tree/basics)
+1. [Основи JavaScript: Змінні, типи даних та основні операції](https://github.com/GoITteacher/javascript-for-kids/tree/module-01-basics)
 2. [Умовні оператори та логіка](https://github.com/GoITteacher/javascript-for-kids/tree/conditions)
 3. [Цикли та повторення дій](https://github.com/GoITteacher/javascript-for-kids/tree/loops)
 4. [Масиви: Робота з колекціями даних](https://github.com/GoITteacher/javascript-for-kids/tree/arrays)
