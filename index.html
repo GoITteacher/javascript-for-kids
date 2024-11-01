@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+  </head>
+  <body>
+    <h1>Markdown Viewer</h1>
+    <button onclick="loadMarkdown('README.md')">Class Work</button>
+    <button onclick="loadMarkdown('Homework.md')">Home Work</button>
+    <button onclick="loadMarkdown('KnowledgeCheck.md')">
+      Knowledge Checkout
+    </button>
+
+    <div id="markdown-content">Завантаження...</div>
+
+    <script src="./scripts/init.js"></script>
+    <script src="./scripts/classwork.js"></script>
+    <script src="./scripts/homework.js"></script>
+  </body>
+</html>
